@@ -6,6 +6,7 @@
         <title>Churros La Luz - Contact us</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/laluz.css">
+
         <!-- <link rel="stylesheet" href="css/bootstrap-min.css"> -->
     </head>
     <body>
@@ -23,19 +24,20 @@
                 <label class="input">Notes:</label>
                 <textarea class="form-control" type="notes" name="notes" id="notes"></textarea>
             </div>
-            <div class="checkbox disabled">
-                <label><input type="checkbox" disabled>Join our mailing list</label>
+            <div class="checkbox">
+                <label></label>
+                <input type="checkbox">Join our mailing list</input>
             </div>
             <button type="submit" class="btn btn-default" id=submit>Submit</button>
         </form>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
         <script type="text/javascript" src="js/contactus.js"></script>
         <script src="js/jquery.fittext.js"></script>
         <script>
-            jQuery("h3").fitText();
+            $(function() {
+                $("h3").fitText();
+            });
         </script>
 
     </body>
