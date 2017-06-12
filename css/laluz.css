@@ -65,7 +65,22 @@ p {
 
 .menu-items {
     margin-top: 0;
-    color: blue;
+    color: beige;
+    text-shadow: #50a38f .1em .1em 0;
+}
+
+.ui-dialog,.ui-dialog,.ui-widget, .ui-widget-content, .ui-corner-all, .ui-draggable, .ui-resizable {
+    color: #50a38f;
+    background:beige;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-menu {
+    width: 200px;
+    font-size: 24px;
 }
 
 ul {
